@@ -1,0 +1,45 @@
+Q1- What is React?
+
+A1- Reach is a liabrary it helps us to build a user interface basically this librabry is created by facebook this librabry help us to write html like syntax
+
+
+Q2- Who made React?
+
+A2- Jordan Walke is crated this librabry . He works in facebook, React is developed on 2011 but it is open source in 2013
+
+Q3- What is Babel?
+
+A3- Babel is a JavaScript compiler that allows developers to write code in the latest version of JavaScript and convert it into a version that can run on older browsers and environments. 
+
+Q4-How does Babel convert html code in React into valid code?
+
+A4-babel is convert the latest version of JavaScript code into the one that the browser understands
+
+Q5- What is ReactDOM used for? Write an example?
+
+A5- ReactDOM is a package that provides DOM-specific methods to manage React components1. It allows you to manipulate the DOM of a web page and render React components efficiently
+
+Q6-What are the packages that you need to import for react to work with?
+
+A6-we need ti import packages are:
+1-React
+2-React DOM
+3-web package
+4-babel
+
+Q7-How do you add react to a web application?
+
+A7-Set up a JavaScript environment that lets you use the JSX syntax, split your code into modules with the import / export syntax, and use packages (for example, React) from the npm package registry.
+Render your React components where you want to see them on the page.
+
+Q8-What is React.createElement?
+
+A8- this Element is basically for creating any type of Element in React . It is an alternative to writing JSX1. The method takes three parameters: type, props, and children
+
+Q9-What are the three properties that createElement accept?
+
+A9-create element method is used to create an HTML element specified by tagName. The method accepts one parameter, tagName, which is a string that specifies the type of element to be created. The nodeName of the created element is initialized with the value of tagName.
+
+Q10-What is the meaning of render and root?
+
+A10-render is basically for the visibility of our element  on DOM Root refers to the element that exists in the original HTML that all of the React contents go into3. In React, the root component is the component at the top of the component tree, and is the first component to be rendered
