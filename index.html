@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="root">
+  
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+let Root=document.getElementById("root");
+
+
+
+let parent=React.createElement("div",{style:{border:"1px solid red",display:"flex",width:"50%",height:"100px",}},"parentdiv",
+    
+    [React.createElement("div",{style:{border:"1px solid green",margin:"10px",width:"20%",background:"red"}},"box1"),
+    React.createElement("div",{style:{border:"1px solid blue",margin:"10px",width:"20%",background:"yellow"}},"box2"),
+    React.createElement("div",{style:{border:"1px solid black",margin:"10px",width:"20%",background:"green"}},"box3"),
+    React.createElement("div",{style:{border:"1px solid black",margin:"10px",width:"20%",background:"violet"}},"box4")]
+)
+
+
+let add=ReactDOM.createRoot(Root);
+add.render(parent)
+    </script>
+</body>
+</html>
